@@ -1,0 +1,4 @@
+# udev rule should be placed in /etc/udev/rules.d or /lib/udev/rules.d
+
+# 0426:3011 Integrated Device Technology, Inc. 
+SUBSYSTEM=="usb", ATTR{idVendor}=="0426", ATTR{idProduct}=="3011", MODE="0666"
